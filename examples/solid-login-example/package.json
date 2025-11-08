@@ -1,0 +1,16 @@
+{
+  "name": "solid-login-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Framework-agnostic Solid Pod authentication example",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@linq/models": "*",
+    "drizzle-solid": "*"
+  }
+}

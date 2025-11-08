@@ -1,0 +1,44 @@
+# Node / TypeScript / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+*.log
+*.log.*
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Coverage and test outputs
+coverage/
+playwright-report/
+test-results/
+
+# Electron build artefacts
+apps/desktop-electron/dist/
+apps/desktop-electron/out/
+
+# Capacitor / mobile build artefacts
+apps/mobile-shell/android/
+apps/mobile-shell/ios/
+apps/mobile-shell/www/
+
+# Temporary files
+*.tmp
+*.swp
